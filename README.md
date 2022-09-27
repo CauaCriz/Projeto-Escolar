@@ -2,4 +2,5 @@
 
 # Participantes
 
-Cauã - (Programador e Sonoplasta)<\br>
+Cauã - (Programador e Sonoplasta)<br>
+Inácio - (Sonoplasta e Game Designer)
