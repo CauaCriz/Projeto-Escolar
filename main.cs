@@ -25,12 +25,17 @@ public class main : MonoBehavior
     {
         if(GetButtonDown("Jump"))
         {
+            if(jumping == true)
+            {
+                
+            }
             body.up = 
         }
     }
     
     private void Move()
     {
-        body.velocity = new Vector2(Input.GetAxis("Horizontal"), )
+        body.velocity = new Vector2(Input.GetAxis("Horizontal"), 0);
+        
     }
 }
