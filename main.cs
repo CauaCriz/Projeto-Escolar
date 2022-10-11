@@ -1,5 +1,5 @@
-using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class main : MonoBehavior
@@ -25,12 +25,12 @@ public class main : MonoBehavior
     {
         if(GetButtonDown("Jump"))
         {
-            
+            body.up = 
         }
     }
     
     private void Move()
     {
-        
+        body.velocity = new Vector2(Input.GetAxis("Horizontal"), )
     }
 }
