@@ -35,7 +35,7 @@ public class main : MonoBehavior
     
     private void Move()
     {
-        body.velocity = new Vector2(Input.GetAxis("Horizontal"), 0);
-        
+        Vector2 movement = new Vector2(Input.GetAxis("Horizontal"), 0f)
+        transform.position += moviment * Time.deltaTime * speed;
     }
 }
