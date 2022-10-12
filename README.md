@@ -1,6 +1,6 @@
 # Tap Ninja (Exemplo)
 
-[Jogo na qual estamos nos baseando](https://play.google.com/store/apps/details?id=com.BrokenGlass.TapNinja)
+Jogo na qual estamos nos baseando - (https://play.google.com/store/apps/details?id=com.BrokenGlass.TapNinja)
 
 # Participantes
 
