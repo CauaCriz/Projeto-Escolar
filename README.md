@@ -1,4 +1,4 @@
-# Clash Of Clans (Exemplo)
+# Tap Ninja (Exemplo)
 
 # Participantes
 
