@@ -25,11 +25,7 @@ public class main : MonoBehavior
     {
         if(GetButtonDown("Jump"))
         {
-            if(jumping == true)
-            {
-                
-            }
-            body.up = 
+            
         }
     }
     
