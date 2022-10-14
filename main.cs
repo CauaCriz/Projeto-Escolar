@@ -23,15 +23,15 @@ public class main : MonoBehavior
     
     private void Jump()
     {
-        if(GetButtonDown("Jump"))
+        if(GetButtonDown("Jump") && jumping == true)
         {
-            
+            jump.AddForce(new Vector2(0f, ))
         }
     }
     
     private void Move()
     {
-        Vector2 movement = new Vector2(Input.GetAxis("Horizontal"), 0f)
+        Vector2 moviment = new Vector2(Input.GetAxis("Horizontal"), 0f);
         transform.position += moviment * Time.deltaTime * speed;
     }
 }
