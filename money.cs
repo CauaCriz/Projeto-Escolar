@@ -20,7 +20,7 @@ public class money : MonoBehaviour
     
     void OnTrigerEnter(Collider collision)
     {
-        if(ComparTag("Money"))
+        if(CompareTag("Money"))
         {
             MoneyPass += 5;
             Debug.Log("Voce agr tem: " + MoneyPass + "de dinheiro");
