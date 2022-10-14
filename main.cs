@@ -23,7 +23,7 @@ public class main : MonoBehavior
     
     private void Jump()
     {
-        if(GetButtonDown("Jump") && jumping == true)
+        if(Input.GetButtonDown("Jump") && jumping == true)
         {
             player.AddForce(new Vector2(0f, jump));
             jumping = false;
