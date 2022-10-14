@@ -25,7 +25,8 @@ public class main : MonoBehavior
     {
         if(GetButtonDown("Jump") && jumping == true)
         {
-            jump.AddForce(new Vector2(0f, ))
+            jump.AddForce(new Vector2(0f, jump));
+            jumping = false;
         }
     }
     
@@ -33,5 +34,13 @@ public class main : MonoBehavior
     {
         Vector2 moviment = new Vector2(Input.GetAxis("Horizontal"), 0f);
         transform.position += moviment * Time.deltaTime * speed;
+    }
+    
+    private void OnCollisionEnter2D(Collision col)
+    {
+        if(col.gameObject.layer == 8)
+        {
+            jumping = true;
+        }
     }
 }
