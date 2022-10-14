@@ -6,12 +6,12 @@ public class main : MonoBehavior
 {
     public float jump, speed;
     public bool jumping;
-    public RigidBody2D body;
+    public RigidBody2D player;
     
     //Use this initialization
     void Start()
     {
-        body = GetComponent<RigidBody2D>();
+        player = GetComponent<RigidBody2D>();
     }
     
     //Update is called once per frame
@@ -25,7 +25,7 @@ public class main : MonoBehavior
     {
         if(GetButtonDown("Jump") && jumping == true)
         {
-            jump.AddForce(new Vector2(0f, jump));
+            player.AddForce(new Vector2(0f, jump));
             jumping = false;
         }
     }
@@ -36,7 +36,7 @@ public class main : MonoBehavior
         transform.position += moviment * Time.deltaTime * speed;
     }
     
-    private void OnCollisionEnter2D(Collision col)
+    private void OnCollisionEnter2D(Collision2D col)
     {
         if(col.gameObject.layer == 8)
         {
