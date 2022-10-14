@@ -6,7 +6,7 @@ public class main : MonoBehavior
 {
     public float jump, speed;
     public bool jumping;
-    public RigidBody2D player;
+    public Rigidbody2D player;
     
     //Use this initialization
     void Start()
