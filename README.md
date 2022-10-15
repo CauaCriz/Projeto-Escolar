@@ -1,4 +1,4 @@
-# Tap Ninja (Exemplo)
+# War Evolution
 
 [Jogo na qual estamos nos baseando](https://play.google.com/store/apps/details?id=com.BrokenGlass.TapNinja)
 
