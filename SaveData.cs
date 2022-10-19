@@ -15,8 +15,9 @@ public class SaveData : MonoBehaviour
     	PlayerPrefs.SetFloat("X", transform.position.x);
     	PlayerPrefs.SetFloat("Y", transform.position.y);
     
+    	//Salvando outros dados do player
+    	PlayerPrefs.SetFloat("Health", healthPlayer);
     	PlayerPrefs.SetInt("Money", MoneyPass);
     	PlayerPrefs.SetInt("Score", Score);
-    	PlayerPrefs.SetString("UltimaVez", Time.
     }
 }
