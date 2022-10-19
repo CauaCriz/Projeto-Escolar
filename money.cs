@@ -5,6 +5,7 @@ using UnityEngine;
 public class money : MonoBehaviour
 {
     public int MoneyPass;
+    public GameObject money;
     
     //Use this initialization
     void Start()
@@ -20,11 +21,11 @@ public class money : MonoBehaviour
     
     void OnTrigerEnter(Collider collision)
     {
-        if(CompareTag("Money"))
+        if(collision.CompareTag("Money"))
         {
             MoneyPass += 5;
             Debug.Log("Voce agr tem: " + MoneyPass + "de dinheiro");
-            Destroy(collision);
+            Destroy(Money);
         }
     }
 }
