@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class money : MonoBehaviour
 {
-    public int MoneyPass = 0;
+    public int MoneyPass;
     
     //Use this initialization
     void Start()
